@@ -2,7 +2,9 @@ package main
 
 import "fmt"
 
+const usefulConst = "This is an useful constant"
+
 func main() {
-	//anyVar := 16 / 3
-	fmt.Printf("Результат %v, остаток от деления %v, тип: %T", 16/3, 16%3, 16/3)
+
+	fmt.Printf("%v", usefulConst)
 }
