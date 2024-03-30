@@ -11,7 +11,7 @@ func main() {
 		const4 = 4
 		const5 = 5
 	)
-	
+
 	fmt.Printf("Const 1 = %v, ", const1)
 	fmt.Printf("Const 2 = %v, ", const2)
 	fmt.Printf("Const 3 = %v, ", const3)
