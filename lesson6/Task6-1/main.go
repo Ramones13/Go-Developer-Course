@@ -1,0 +1,25 @@
+// Необходимо объявить глобальную структуру contract с полями: ID int, Number string, Date string.
+// Далее создать экземпляр структуры со значениями полей:
+// ID=1, Number=«#000A\n101», Date=«2024-01-31».
+// В консоль нужно вывести структуру таким образом, чтобы данные отображались в виде:
+// {ID:1Number:#000A\n101 Date:2024-01-31}
+
+package main
+
+import "fmt"
+
+type contract struct {
+	ID     int
+	Number string
+	Date   string
+}
+
+func main() {
+
+	contractExample := contract{
+		ID:     1,
+		Number: "#000A\n101",
+		Date:   "2024-01-31",
+	}
+	fmt.Printf("%#v\n", contractExample)
+}
