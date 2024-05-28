@@ -7,7 +7,6 @@ import (
 
 func main() {
 
-	// Task 10.1
 	fmt.Println(first.Hello())
 
 }
