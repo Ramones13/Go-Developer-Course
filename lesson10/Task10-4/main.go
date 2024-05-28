@@ -1,16 +1,15 @@
-// Поскольку у нас исторически был создан один репозиторий для всего проекта.
-// Для модуля создан отдельный репозиторий,
-// но в головном репозитории папка с текущей версией модуля так же будет присутствовать
-// однако вызывать мы будем как модуль через зависимости в go.mod
-
 package main
 
 import (
 	"fmt"
+
+	jazzModuleV1 "github.com/Ramones13/jazzModule"
+	jazzModuleV2 "github.com/Ramones13/jazzModule/v2"
 )
 
 func main() {
 
-	fmt.Println()
+	fmt.Println(jazzModuleV1.Hello())
+	fmt.Println(jazzModuleV2.Hello())
 
 }
